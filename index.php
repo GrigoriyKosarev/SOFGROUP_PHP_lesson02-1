@@ -46,7 +46,7 @@
             echo "<br>$a / $b = "; echo $a / $b;
         }
         else{
-            echo "worning b = 0";
+            echo "warning b = 0";
         }
     }
     elseif ((gettype($a) === string) and (gettype($b) === string)) {
